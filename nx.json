@@ -5,6 +5,7 @@
     "lint": { "cache": true },
     "@nx/eslint:lint": { "cache": true, "inputs": ["default", "{workspaceRoot}/tools/eslint-rules/**/*"] }
   },
+  "neverConnectToCloud": true,
   "extends": "@nx/workspace/presets/npm.json",
   "release": {
     "changelog": { "workspaceChangelog": false, "projectChangelogs": true },
